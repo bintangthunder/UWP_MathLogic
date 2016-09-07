@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="MathGame.View.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MathGame.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Background="#37384d">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Margin="0 20 0 0">
+                <TextBlock x:Name="Title" Text="About" Foreground="Cyan" FontWeight="ExtraBold" TextWrapping="Wrap" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <!--<TextBlock x:Name="txtBestScore" Text="BEST SCORE: 0" Foreground="Bisque" FontWeight="ExtraBold" TextWrapping="Wrap"
+                           FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>-->
+                <TextBlock x:Name="AuthorName" Margin="10 -100 0 0" Text="Bintang Thunder" Foreground="Wheat" FontWeight="Normal" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left"/>
+                <TextBlock x:Name="AuthorAsal" Margin="10 -40 0 0" Text="Mahasiswa Indonesia" Foreground="Wheat" FontWeight="Normal" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left"/>
+                <TextBlock x:Name="AuthorDaerah" Margin="10 20 0 0" Text="Asli Anak Medan" Foreground="Wheat" FontWeight="Normal" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Left"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Name="Pembelajaran" Margin="30 0 30 0" Text="Mini game ini dibuat dengan tujuan latihan dan pembelajaran." Foreground="Wheat" FontWeight="SemiBold" TextWrapping="Wrap" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock x:Name="Pembelajaran1" Margin="30 10 30 0" Text="Pembuat game masih perlu belajar lagi, karena game ini masih belum sempurna." Foreground="Wheat" FontWeight="SemiBold" TextWrapping="Wrap" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock x:Name="Pembelajaran2" Margin="30 10 30 0" Text="Terimakasih kepada media pembelajaran online dan Source yang tersedia secara bebas." Foreground="Wheat" FontWeight="SemiBold" TextWrapping="Wrap" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock x:Name="Pembelajaran3" Margin="30 10 30 0" Text="Mohon maaf untuk segala kekurangan pembuat mini game ini." Foreground="Wheat" FontWeight="SemiBold" TextWrapping="Wrap" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+
+                    <Button x:Name="btnPlayBack" Margin="0 60 0 0" BorderBrush="#a4404e" BorderThickness="4" Background="Khaki" Content="BACK" HorizontalAlignment="Center"
+                            VerticalAlignment="Center" Padding="40 10 40 10" Foreground="BlueViolet" FontWeight="ExtraBold" FontSize="30" Click="btnPlayBack_Click" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

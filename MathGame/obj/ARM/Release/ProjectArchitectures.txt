@@ -1,0 +1,1 @@
+D:\project\MSP\UWP\MathGame\MathGame\MathGame.csproj;arm

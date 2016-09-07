@@ -1,0 +1,10 @@
+/out:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\intermediate\\"
+/ref:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\intermediate\TransformedSRWR\\"
+/ref:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\in\\"
+/ref:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\in\\"
+/ref:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x64\ilc\lib\Private\\"
+/ref:"D:\project\MSP\UWP\MathGame\MathGame\obj\x64\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib

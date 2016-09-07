@@ -1,0 +1,1 @@
+MainPackage=D:\project\MSP\UWP\MathGame\MathGame\bin\ARM\Release\Upload\MathGame_1.0.0.0_ARM.appx

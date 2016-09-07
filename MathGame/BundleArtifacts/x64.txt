@@ -1,0 +1,2 @@
+MainPackage=D:\project\MSP\UWP\MathGame\MathGame\bin\x64\Release\MathGame_1.0.0.0_x64.appx
+SymbolPackage=D:\project\MSP\UWP\MathGame\MathGame\AppPackages\MathGame_1.0.0.0_Test\MathGame_1.0.0.0_x64.appxsym
